@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,
+ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+/* ==================================================================================
+                    Banner part css start
+================================================================================== */
+#banner_part{
+    padding: 30px 0;
+    height: 600px;
+    background: url("../imgs/banner\ img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner_part .menuparent{
+    display: flex;
+    justify-content: space-between;
+}
+#banner_part .menuparent .logo{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+#banner_part .menuparent .menuitem ul{
+    display: flex;
+    column-gap: 60px;
+}
+#banner_part .menuparent .menuitem ul li a{
+    color: white;
+    transition: all linear 0.2s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#banner_part .menuparent .menuitem ul li a:hover{
+    color: aqua;
+}
+#banner_part .banner_text{
+    margin-top: 150px;
+}
+#banner_part .banner_text p{
+    color: #FFC178;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-bottom: 10px;
+}
+#banner_part .banner_text h1{
+    color: #fff;
+    font-size: 88px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+#banner_part .banner_text h1 span{
+    display: block;
+    font-size: 96px;
+    font-weight: 700;
+}
+
+
+/* ==================================================================================
+                   Banner part css End
+================================================================================== */
+
+
+
+/* =================================================================================
+                   holiday part css start
+=================================================================================== */
+
+#holiday_part{
+    padding: 150px 0;
+    background-color: black;
+}
+#holiday_part .holiday_parent{
+    display: flex;
+    column-gap: 23px;
+}
+#holiday_part .holiday_parent .holiday_text .holiday_text_title{
+color: #FBD784;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 6px;
+text-transform: capitalize;
+margin-top: 45px;
+}
+#holiday_part .holiday_parent .holiday_text .holiday_head_text{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+    margin-top: 13px;
+}
+#holiday_part .holiday_parent .holiday_text .holiday_description{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; 
+    font-style: normal; 
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30px;
+    margin-top: 13px;
+    text-align: justify;
+}
+#holiday_part .holiday_parent .holiday_text .rend_morre_btn{
+color: #FBD784;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+display: inline-block;
+margin-top: 64px;
+
+
+}
+
+
+/* =================================================================================
+                   holiday part css end
+=================================================================================== */
+
+
+
+
+/* =================================================================================
+                   bromo part css start
+=================================================================================== */
+#bromo_part{
+    padding: 100px 0;
+    background-color: black;
+}
+#bromo_part .bromobody{
+    background: url(../imgs/bromo1.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bromo_part .bromobody .bromo_text{
+    
+    padding: 400px 0;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+#bromo_part .bromobody .bromo_text .bromo_head{
+    color: #FBD784;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    
+}
+#bromo_part .bromobody .bromo_text .bromo_togeter{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+#bromo_part .bromobody .bromo_text .bromo_descrition{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    
+    padding: 0 22%;
+}
+
+#bromo_part .bromobody .bromo_text .bromo_rend_more{
+    color: #FBD784;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    font-style: normal;  
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* =================================================================================
+                   bromo part css end
+=================================================================================== */
+
+
+
+
+
+/* ===================================================================================
+                   people part css start
+===================================================================================== */
+#people_part{
+    padding: 100px 0;
+    background-color: black;
+}
+#people_part .people_parent{
+    display: flex;
+    column-gap: 23px; 
+}
+#people_part .people_parent .people_text .people_text_title{
+color: #FBD784;
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 6px;
+text-transform: capitalize;
+margin-top: 45px;
+}
+#people_part .people_parent .people_text .people_head_text{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    margin-top: 13px;
+}
+#people_part .people_parent .people_text .people_description{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; 
+    font-style: normal; 
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30px;
+    margin-top: 13px;
+    text-align: justify;
+}
+#people_part .people_parent .people_text .rend_morre_btn2{
+    color: #FBD784;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 64px; 
+}
+
+
+
+/* ===================================================================================
+                   people part css end
+===================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================================================
+                  Footer part css start
+================================================================================== */
+#footer_part{
+    padding: 100px 0;
+    background-color: black;
+}
+#footer_part .footer_middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer_part .footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer_part .footer_top .footer_logo{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+#footer_part .footer_top .footer_uttils{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+#footer_part .footer_top .footer_uttils p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+
+}
+#footer_part .footer_top .footer_uttils a{
+    display: inline-block;
+    color: #000;
+    padding: 17px 45px;
+    background: #FFA343;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#footer_part .footer_middle .footer_middle_left_text h2{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+    margin-top: 82px;
+}
+#footer_part .footer_middle .footer_middle_left_text p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 
+    font-weight: 400;
+    letter-spacing: -0.205px;
+    text-transform: capitalize;
+    margin-top: 49px;
+}
+#footer_part .footer_middle .footer_middle_left_text .social_icon a i{
+color: #fff;
+margin-right: 20px;
+margin-top: 34px;
+}
+#footer_part .footer_middle .footer_middle_left_service_items{
+    display: flex;
+    column-gap: 140px;
+    align-items: center;
+}
+#footer_part .footer_middle .footer_middle_left_service_items .service_part h2{
+    color: #FFD1A0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.232px;
+    text-transform: capitalize;
+    margin-bottom: 11px;
+}
+#footer_part .footer_middle .footer_middle_left_service_items .service_part ul li a{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.205px;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+#footer_part .footer_middle .footer_middle_left_service_items .service_part:last-child{
+    align-self: flex-start;
+}
+
+
+
+
+/* ==================================================================================
+                  Footer part css end
+================================================================================== */
